@@ -9,6 +9,15 @@
       }
     }
   },
+  "Sections": {
+    "Hero": {
+      "introduction": "Transformando ideias em experiências digitais <linkTag>Veja meus projetos</linkTag>",
+      "headline": "Desenvolvedor frontend focado em design, performance e acessibilidade.",
+      "description": "Crio interfaces modernas e responsivas, com atenção aos detalhes e experiência do usuário. Trabalho com tecnologias como <nextjs>Nextj.js</nextjs>, <tailwind>Tailwind</tailwind> e <react>React</react>",
+      "contactBtn": "Fale comigo",
+      "downloadCvBtn": "Baixar CV"
+    }
+  },
   "Others": {
     "Theme": {
       "toggleTheme": "Alterar tema",
