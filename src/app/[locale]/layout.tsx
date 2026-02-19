@@ -12,6 +12,7 @@ import "./globals.css";
 
 // Componentes
 import { ThemeProvider } from "@/components/theme-provider";
+import NavigationBar from "@/components/layout/NavigationBar";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -40,7 +41,10 @@ export default async function RootLayout({ children, params }: Props) {
     <html lang={locale} suppressHydrationWarning>
       <body className={`${inter.className} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <NextIntlClientProvider>
+            <NavigationBar />
+            {children}
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>
