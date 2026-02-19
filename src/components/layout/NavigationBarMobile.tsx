@@ -39,6 +39,7 @@ const NavigationBarMobile = () => {
             variant={"ghost"}
             onClick={handleClick}
             className="max-sm:pr-0!"
+            aria-label="Menu Mobile"
           >
             <MenuIcon className="size-6" />
           </Button>

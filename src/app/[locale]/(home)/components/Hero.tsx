@@ -33,13 +33,13 @@ const Hero = async () => {
         <p className="text-lg text-muted-foreground max-w-2xl">
           {t.rich("description", {
             nextjs: (chunks) => (
-              <span className="font-medium text-black">{chunks}</span>
+              <span className="font-medium text-primary">{chunks}</span>
             ),
             tailwind: (chunks) => (
-              <span className="font-medium text-black">{chunks}</span>
+              <span className="font-medium text-primary">{chunks}</span>
             ),
             react: (chunks) => (
-              <span className="font-medium text-black">{chunks}</span>
+              <span className="font-medium text-primary">{chunks}</span>
             ),
           })}
         </p>
