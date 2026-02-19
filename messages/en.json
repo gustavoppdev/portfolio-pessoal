@@ -9,6 +9,15 @@
       }
     }
   },
+  "Sections": {
+    "Hero": {
+      "introduction": "Transforming ideas into digital experiences <linkTag>View my projects</linkTag>",
+      "headline": "Frontend developer focused on design, performance, and accessibility.",
+      "description": "I create modern and responsive interfaces, with attention to detail and user experience. I work with technologies like <nextjs>Next.js</nextjs>, <tailwind>Tailwind</tailwind>, and <react>React</react>.",
+      "contactBtn": "Get in Touch",
+      "downloadCvBtn": "Download CV"
+    }
+  },
   "Others": {
     "Theme": {
       "toggleTheme": "Toggle theme",

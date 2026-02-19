@@ -35,7 +35,11 @@ const NavigationBarMobile = () => {
     <div className="flex lg:hidden">
       <Sheet open={open} onOpenChange={handleClick}>
         <SheetTrigger asChild>
-          <Button variant={"ghost"} size={"icon"} onClick={handleClick}>
+          <Button
+            variant={"ghost"}
+            onClick={handleClick}
+            className="max-sm:pr-0!"
+          >
             <MenuIcon className="size-6" />
           </Button>
         </SheetTrigger>
