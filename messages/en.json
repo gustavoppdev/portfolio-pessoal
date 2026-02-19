@@ -1,5 +1,25 @@
 {
-  "HomePage": {
-    "title": "Hello world!"
+  "Layout": {
+    "NavigationBar": {
+      "links": {
+        "about": "About Me",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+      }
+    }
+  },
+  "Others": {
+    "Theme": {
+      "toggleTheme": "Toggle theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "LanguageSwitcher": {
+      "changeLanguage": "Change language",
+      "portuguese": "Portuguese",
+      "english": "English"
+    }
   }
 }

@@ -1,5 +1,25 @@
 {
-  "HomePage": {
-    "title": "oi world!"
+  "Layout": {
+    "NavigationBar": {
+      "links": {
+        "about": "Sobre mim",
+        "services": "Serviços",
+        "portfolio": "Portfólio",
+        "contact": "Contato"
+      }
+    }
+  },
+  "Others": {
+    "Theme": {
+      "toggleTheme": "Alterar tema",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "LanguageSwitcher": {
+      "changeLanguage": "Alterar idioma",
+      "portuguese": "Portugues",
+      "english": "Ingles"
+    }
   }
 }

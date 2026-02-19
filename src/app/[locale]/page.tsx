@@ -1,9 +1,5 @@
-import { getTranslations } from "next-intl/server";
-
-const Home = async () => {
-  const t = await getTranslations("HomePage");
-
-  return <div className="">{t("title")}</div>;
+const Home = () => {
+  return <main>home</main>;
 };
 
 export default Home;
