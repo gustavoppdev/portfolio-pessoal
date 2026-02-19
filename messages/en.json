@@ -16,6 +16,30 @@
       "description": "I create modern and responsive interfaces, with attention to detail and user experience. I work with technologies like <nextjs>Next.js</nextjs>, <tailwind>Tailwind</tailwind>, and <react>React</react>.",
       "contactBtn": "Get in Touch",
       "downloadCvBtn": "Download CV"
+    },
+    "Services": {
+      "introduction": "What I Offer",
+      "headline": "Modern, performant, and experience-focused front-end solutions.",
+      "description": "I build optimized, accessible, and consistent interfaces — from design to implementation — using modern technologies like <nextjs>Next.js</nextjs>, <typescript>TypeScript</typescript>, and <tailwind>Tailwind</tailwind>. My focus is on combining performance and aesthetics to deliver solid and intuitive applications.",
+      "completeProjects": "quality projects completed",
+      "services": {
+        "0": {
+          "title": "Modern Front-End Development",
+          "description": "I create fast and responsive interfaces with Next.js and TypeScript, ensuring a solid and scalable foundation for any web project."
+        },
+        "1": {
+          "title": "Reusable and Consistent Components",
+          "description": "I develop modular interfaces with ShadCN and Tailwind CSS, maintaining clear visual standards and a smooth experience across the entire site."
+        },
+        "2": {
+          "title": "Focus on Experience and Detail",
+          "description": "I integrate good UX practices, micro-interactions, and subtle animations to create engaging and intuitive experiences."
+        },
+        "3": {
+          "title": "Performance and Best Practices",
+          "description": "I optimize SEO, loading time, and accessibility, applying advanced rendering techniques and image optimization in Next.js."
+        }
+      }
     }
   },
   "Others": {
