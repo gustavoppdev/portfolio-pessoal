@@ -50,6 +50,11 @@
 
       "skills": "Tenho facilidade em <emphasis1>aprender rápido</emphasis1> e adaptabilidade para novos desafios. Trabalho de forma colaborativa, dominando boas práticas de <emphasis2>código limpo</emphasis2> e metodologias ágeis como <emphasis3>Scrum e Kanban</emphasis3>, pronto para contribuir ativamente em ambientes dinâmicos e de alta performance.",
       "stacks": "Stack e Conhecimentos Chave"
+    },
+    "Portfolio": {
+      "introduction": "Portfólio",
+      "headline": "Projetos mais recentes",
+      "seeAllBtn": "Veja todos"
     }
   },
   "Others": {
@@ -61,8 +66,8 @@
     },
     "LanguageSwitcher": {
       "changeLanguage": "Alterar idioma",
-      "portuguese": "Portugues",
-      "english": "Ingles"
+      "portuguese": "Português",
+      "english": "Inglês"
     }
   }
 }

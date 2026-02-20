@@ -71,3 +71,22 @@ export const SecondaryStacks: Stacks = [
   "Scrum/Kanban",
   "TanStack Query",
 ];
+
+// Projetos - Portfolio.tsx
+export const projects = [
+  {
+    title: "Project 1",
+    description: "Description 1",
+    link: "https://github.com/gustavoppdev",
+  },
+  {
+    title: "Project 2",
+    description: "Description 2",
+    link: "https://github.com/gustavoppdev",
+  },
+  {
+    title: "Project 3",
+    description: "Description 3",
+    link: "https://github.com/gustavoppdev",
+  },
+];

@@ -50,6 +50,11 @@
 
       "skills": "I have the ability to <emphasis1>learn quickly</emphasis1> and adapt to new challenges. I work collaboratively, mastering good <emphasis2>clean code</emphasis2> practices and agile methodologies such as <emphasis3>Scrum and Kanban</emphasis3>, ready to actively contribute in dynamic, high-performance environments.",
       "stacks": "Stack and Key Knowledge"
+    },
+    "Portfolio": {
+      "introduction": "Portfolio",
+      "headline": "Latest Projects",
+      "seeAllBtn": "View All"
     }
   },
   "Others": {
