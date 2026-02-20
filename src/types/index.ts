@@ -26,3 +26,6 @@ export type ServiceStat = {
   title: TranslationKey;
   description: TranslationKey;
 };
+
+// Tipo para stack e conhecimentos
+export type Stacks = string[];

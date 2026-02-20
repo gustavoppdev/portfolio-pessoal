@@ -40,6 +40,16 @@
           "description": "I optimize SEO, loading time, and accessibility, applying advanced rendering techniques and image optimization in Next.js."
         }
       }
+    },
+    "About": {
+      "introduction": "Who I am and My Journey",
+      "headline": "The Developer Behind the Code.",
+      "paragraphIntroduction": "I am a Front-end Developer with a passion for translating design into web applications that are <emphasis>performant, accessible, and aesthetically pleasing</emphasis>. My work is driven by the constant pursuit of efficiency and clean code.",
+
+      "details": "I began my journey in <emphasis1>January 2022</emphasis1> with a degree in Systems Analysis and Development (completed July/2024), complemented by continuous practice and specialized courses. My core <emphasis2>stack</emphasis2> is <emphasis3>Next.js, TypeScript, React, and Tailwind CSS</emphasis3>, allowing for the creation of robust and scalable interfaces, often with multi-language support via <emphasis4>next-intl</emphasis4>.",
+
+      "skills": "I have the ability to <emphasis1>learn quickly</emphasis1> and adapt to new challenges. I work collaboratively, mastering good <emphasis2>clean code</emphasis2> practices and agile methodologies such as <emphasis3>Scrum and Kanban</emphasis3>, ready to actively contribute in dynamic, high-performance environments.",
+      "stacks": "Stack and Key Knowledge"
     }
   },
   "Others": {

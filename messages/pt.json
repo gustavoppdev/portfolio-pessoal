@@ -40,6 +40,16 @@
           "description": "Otimizo SEO, tempo de carregamento e acessibilidade, aplicando técnicas avançadas de renderização e otimização de imagens no Next.js."
         }
       }
+    },
+    "About": {
+      "introduction": "Quem eu sou e minha jornada",
+      "headline": "O Desenvolvedor Por Trás do Código.",
+      "paragraphIntroduction": "Sou um Desenvolvedor Front-end com uma paixão em traduzir design em aplicações web <emphasis>performáticas, acessíveis e esteticamente agradáveis</emphasis>. Meu trabalho é pautado pela busca constante por eficiência e código limpo.",
+
+      "details": "Iniciei minha jornada em <emphasis1>Janeiro de 2022</emphasis1> com a graduação em Análise e Desenvolvimento de Sistemas (concluída em Julho/2024), complementada por prática e cursos especializados. Minha <emphasis2>stack</emphasis2> principal é <emphasis3>Next.js, TypeScript, React e Tailwind CSS</emphasis3>, permitindo a criação de interfaces robustas e escaláveis, frequentemente com suporte a multi-idiomas via <emphasis4>next-intl</emphasis4>.",
+
+      "skills": "Tenho facilidade em <emphasis1>aprender rápido</emphasis1> e adaptabilidade para novos desafios. Trabalho de forma colaborativa, dominando boas práticas de <emphasis2>código limpo</emphasis2> e metodologias ágeis como <emphasis3>Scrum e Kanban</emphasis3>, pronto para contribuir ativamente em ambientes dinâmicos e de alta performance.",
+      "stacks": "Stack e Conhecimentos Chave"
     }
   },
   "Others": {
