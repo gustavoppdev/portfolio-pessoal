@@ -12,7 +12,7 @@ export const Services = () => {
   return (
     <section
       id="services"
-      className="section-container grid grid-cols-1 xl:grid-cols-2 gap-14 my-16 xl:my-20 items-center scroll-m-60"
+      className="section-container grid grid-cols-1 xl:grid-cols-2 gap-14 my-32 items-center scroll-m-60"
     >
       {/* Texto principal */}
       <div className="flex flex-col gap-8 max-w-xl">
