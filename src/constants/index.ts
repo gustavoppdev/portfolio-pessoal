@@ -1,4 +1,4 @@
-import { LocalesArrayType, NavigationLink, ServiceStat } from "@/types";
+import { LocalesArrayType, NavigationLink, ServiceStat, Stacks } from "@/types";
 import {
   LayersIcon,
   MonitorSmartphoneIcon,
@@ -52,3 +52,22 @@ export const ServicesStats: ServiceStat[] = [
 
 // Projetos Concluídos - Services.tsx
 export const completeProjets: string = "4+";
+
+// Stack e Conhecimentos Principais - About.tsx
+export const MainStacks: Stacks = [
+  "Next.js",
+  "TypeScript",
+  "React",
+  "Tailwind CSS",
+  "Shadcn/ui",
+  "next-intl",
+];
+
+// Stack e Conhecimentos Secundários - About.tsx
+export const SecondaryStacks: Stacks = [
+  "Sass",
+  "Vite",
+  "Auth.js",
+  "Scrum/Kanban",
+  "TanStack Query",
+];
