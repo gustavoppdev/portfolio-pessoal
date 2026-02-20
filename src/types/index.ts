@@ -1,5 +1,6 @@
 import { routingLocales } from "@/i18n/routing";
 import { LucideProps } from "lucide-react";
+import { StaticImageData } from "next/image";
 import { ForwardRefExoticComponent, RefAttributes } from "react";
 
 // Tipo para chave de tradução do next-intl
@@ -29,3 +30,10 @@ export type ServiceStat = {
 
 // Tipo para stack e conhecimentos
 export type Stacks = string[];
+
+// Tipo para link de contato
+export type SocialMediaLink = {
+  href: string;
+  alt: string;
+  iconSrc: StaticImageData;
+};
