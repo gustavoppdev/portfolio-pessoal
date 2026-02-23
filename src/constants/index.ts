@@ -1,4 +1,11 @@
-import { LocalesArrayType, NavigationLink, ServiceStat, Stacks } from "@/types";
+import { emailIcon, githubIcon, linkedinIcon, whatsappIcon } from "@/assets";
+import {
+  LocalesArrayType,
+  NavigationLink,
+  ServiceStat,
+  SocialMediaLink,
+  Stacks,
+} from "@/types";
 import {
   LayersIcon,
   MonitorSmartphoneIcon,
@@ -51,7 +58,7 @@ export const ServicesStats: ServiceStat[] = [
 ];
 
 // Projetos Concluídos - Services.tsx
-export const completeProjets: string = "4+";
+export const CompleteProjets: string = "4+";
 
 // Stack e Conhecimentos Principais - About.tsx
 export const MainStacks: Stacks = [
@@ -88,5 +95,29 @@ export const projects = [
     title: "Project 3",
     description: "Description 3",
     link: "https://github.com/gustavoppdev",
+  },
+];
+
+// Social Medias - Footer.tsx / Contato
+export const SocialMediaLinks: SocialMediaLink[] = [
+  {
+    href: "https://wa.me/16992375781",
+    alt: "WhatsApp",
+    iconSrc: whatsappIcon,
+  },
+  {
+    href: "mailto:gustavopp.dev@gmail.com?subject=Oportunidade de Emprego - Portfólio",
+    alt: "E-mail",
+    iconSrc: emailIcon,
+  },
+  {
+    href: "https://www.linkedin.com/in/seu-perfil",
+    alt: "Linkedin",
+    iconSrc: linkedinIcon,
+  },
+  {
+    href: "https://github.com/gustavoppdev",
+    alt: "GitHub",
+    iconSrc: githubIcon,
   },
 ];

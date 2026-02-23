@@ -7,6 +7,11 @@
         "portfolio": "Portfolio",
         "contact": "Contact"
       }
+    },
+    "Footer": {
+      "headline": "Seeking my first opportunity. <emphasis>Shall we talk?</emphasis>",
+      "description": "I'm a front-end developer passionate about creating modern and functional interfaces. I enjoy turning ideas into real experiences using technologies like <nextjs>Next.js</nextjs>, <typescript>TypeScript</typescript>, and <tailwind>Tailwind CSS</tailwind>.",
+      "credits": "© {year} Gustavo Henrique. Personal Portfolio."
     }
   },
   "Sections": {

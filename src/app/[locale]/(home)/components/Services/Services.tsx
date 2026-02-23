@@ -2,7 +2,7 @@
 import { useTranslations } from "next-intl";
 
 // Constantes
-import { completeProjets, ServicesStats } from "@/constants";
+import { CompleteProjets, ServicesStats } from "@/constants";
 
 // Componentes
 import ServiceCard from "./ServiceCard";
@@ -34,7 +34,7 @@ export const Services = () => {
 
         <div>
           <p className="font-semibold text-3xl md:text-4xl text-primary">
-            {completeProjets}
+            {CompleteProjets}
           </p>
           <p className="text-muted-foreground">{t("completeProjects")}</p>
         </div>

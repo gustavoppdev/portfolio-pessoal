@@ -13,6 +13,7 @@ import "./globals.css";
 // Componentes
 import { ThemeProvider } from "@/components/theme-provider";
 import NavigationBar from "@/components/layout/NavigationBar";
+import Footer from "@/components/layout/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -54,6 +55,7 @@ export default async function RootLayout({ children, params }: Props) {
           <NextIntlClientProvider>
             <NavigationBar />
             {children}
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
