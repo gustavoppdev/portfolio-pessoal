@@ -40,10 +40,24 @@ export async function generateMetadata({
     openGraph: {
       title: t("openGraph.title"),
       description: t("openGraph.description"),
-      url: "/og-image.webp",
+      url: "https://gustavoppdev.vercel.app/",
+      images: [
+        {
+          url: "/og-image.webp",
+          width: 1200,
+          height: 630,
+          alt: "Gustavo Henrique - Portfolio",
+        },
+      ],
       siteName: t("openGraph.site_name"),
       locale: locale === "pt" ? "pt_BR" : "en_US",
       type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("openGraph.title"),
+      description: t("openGraph.description"),
+      images: ["https://gustavoppdev.vercel.app/og-image.webp"],
     },
     authors: [{ name: "Gustavo Henrique" }],
     creator: "Gustavo Henrique",

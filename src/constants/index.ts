@@ -120,7 +120,7 @@ export const CompleteProjets: string = projects.length + "+";
 // Social Medias - Footer.tsx / Contato
 export const SocialMediaLinks: SocialMediaLink[] = [
   {
-    href: "https://wa.me/16992375781",
+    href: "https://wa.me/16992375781?text=Olá! Vi seu portfólio e gostaria de conversar.",
     alt: "WhatsApp",
     iconSrc: whatsappIcon,
   },
@@ -140,3 +140,8 @@ export const SocialMediaLinks: SocialMediaLink[] = [
     iconSrc: githubIcon,
   },
 ];
+
+export const ContactWhatsappLink: string =
+  "https://wa.me/16992375781?text=Olá! Vi seu portfólio e gostaria de conversar.";
+export const ContactEmailLink: string =
+  "mailto:gustavopp.dev@gmail.com?subject=Oportunidade de Emprego - Portfólio";

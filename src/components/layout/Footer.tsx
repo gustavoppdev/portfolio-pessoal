@@ -7,7 +7,11 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 
 // Constantes & Lucide Icons
-import { SocialMediaLinks } from "@/constants";
+import {
+  ContactEmailLink,
+  ContactWhatsappLink,
+  SocialMediaLinks,
+} from "@/constants";
 import { Mail } from "lucide-react";
 
 const Footer = () => {
@@ -24,9 +28,9 @@ const Footer = () => {
             {t.rich("headline", {
               emphasis: (chunks) => (
                 <Link
-                  href="mailto:gustavopp.dev@gmail.com?subject=Oportunidade de Emprego - Portfólio"
+                  href={ContactWhatsappLink}
                   target="_blank"
-                  className="block underline underline-offset-6 "
+                  className="block underline underline-offset-6 hover:opacity-85"
                 >
                   {chunks}
                 </Link>
@@ -42,9 +46,9 @@ const Footer = () => {
           </p>
 
           <a
-            href="mailto:gustavopp.dev@gmail.com?subject=Oportunidade de Emprego - Portfólio"
+            href={ContactEmailLink}
             target="_blank"
-            className="mt-2 inline-flex items-center gap-2 text-sm font-medium text-white hover:text-primary-foreground/80 transition-colors"
+            className="mt-2 inline-flex items-center gap-2 text-sm font-medium text-white hover:opacity-85"
           >
             <Mail className="w-4 h-4" />
             gustavopp.dev@gmail.com
