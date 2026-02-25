@@ -12,6 +12,30 @@
       "headline": "Em busca da minha primeira oportunidade. <emphasis>Vamos conversar?</emphasis>",
       "description": "Sou um desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais. Gosto de transformar ideias em experiências reais usando tecnologias como <nextjs>Next.js</nextjs>, <typescript>TypeScript</typescript> e <tailwind>Tailwind CSS</tailwind>.",
       "credits": "© {year} Gustavo Henrique. Portfólio pessoal."
+    },
+    "Metadata": {
+      "title": "Gustavo Henrique | Desenvolvedor Front-end - Next.js & React",
+      "description": "Desenvolvedor Front-end focado em criar aplicações web performáticas, acessíveis e robustas. Especialista em Next.js, React, TypeScript e Tailwind CSS.",
+      "keywords": [
+        "Desenvolvedor Front-end",
+        "Portfólio",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Acessibilidade",
+        "Web Performance",
+        "Front End Developer",
+        "Programador"
+      ],
+      "openGraph": {
+        "title": "Gustavo Henrique | Desenvolvedor Front-end - Next.js & React",
+        "description": "Construindo experiências digitais rápidas e acessíveis. Veja meus projetos com Next.js e TypeScript.",
+        "type": "website",
+        "url": "https://gustavoppdev.vercel.app",
+        "locale": "pt_BR",
+        "site_name": "Gustavo Henrique | Portfólio de Desenvolvimento"
+      }
     }
   },
   "Sections": {
