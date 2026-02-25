@@ -5,8 +5,9 @@ import { getTranslations } from "next-intl/server";
 // Componentes
 import { Button } from "@/components/ui/button";
 
-// Lucide Icons
+// Constantes & Lucide Icons
 import { DownloadIcon } from "lucide-react";
+import { ContactWhatsappLink } from "@/constants";
 
 const Hero = async () => {
   const t = await getTranslations("Sections.Hero");
@@ -45,17 +46,18 @@ const Hero = async () => {
         </p>
         <div className="flex items-center gap-4">
           <Button size="lg" asChild>
-            <Link
-              href="mailto:gustavopp.dev@gmail.com?subject=Oportunidade de Emprego - Portfólio"
-              passHref
-              target="_blank"
-            >
+            <Link href={ContactWhatsappLink} passHref target="_blank">
               {t("contactBtn")}
             </Link>
           </Button>
-          <Button size="lg" variant="ghost">
-            {t("downloadCvBtn")}
-            <DownloadIcon className="size-4" />
+          <Button size="lg" variant="ghost" asChild>
+            <a
+              href="/cv-gustavo-henrique.pdf"
+              download="cv-gustavo-henrique.pdf"
+            >
+              {t("downloadCvBtn")}
+              <DownloadIcon className="size-4" />
+            </a>
           </Button>
         </div>
       </div>
