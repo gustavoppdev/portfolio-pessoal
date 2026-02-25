@@ -14,6 +14,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import NavigationBar from "@/components/layout/NavigationBar";
 import Footer from "@/components/layout/Footer";
+import { ScrollToTop } from "@/components/common/ScrollToTop";
 import { getTranslations } from "next-intl/server";
 
 const inter = Inter({
@@ -93,6 +94,7 @@ export default async function RootLayout({ children, params }: Props) {
             <NavigationBar />
             {children}
             <Footer />
+            <ScrollToTop />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
