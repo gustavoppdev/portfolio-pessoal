@@ -28,6 +28,14 @@ export type ServiceStat = {
   description: TranslationKey;
 };
 
+// Tipo para projetos
+export type ProjectType = {
+  title: string;
+  description: string;
+  link: string;
+  imageSrc: StaticImageData;
+};
+
 // Tipo para stack e conhecimentos
 export type Stacks = string[];
 
