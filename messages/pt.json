@@ -59,7 +59,25 @@
     "Portfolio": {
       "introduction": "Portfólio",
       "headline": "Projetos mais recentes",
-      "seeAllBtn": "Veja todos"
+      "seeAllBtn": "Veja todos",
+      "projects": {
+        "tailwind-store": {
+          "title": "Tailwind Store — E-commerce Fullstack",
+          "description": "Plataforma completa com Next.js e Sanity CMS, apresentando fluxo de checkout, autenticação com Google e suporte a multi-idiomas."
+        },
+        "rachel-stone": {
+          "title": "Rachel Stone — Personal Trainer",
+          "description": "Landing page de alta fidelidade visual baseada em design profissional, com foco em performance, SEO e suporte total a múltiplos idiomas."
+        },
+        "skillbridge": {
+          "title": "SkillBridge — Plataforma EAD",
+          "description": "Interface educacional moderna com foco em acessibilidade (WCAG), estruturação de cursos e navegação internacionalizada."
+        },
+        "square-up": {
+          "title": "SquareUp — Agência Digital",
+          "description": "Website institucional moderno com tema escuro, focado em apresentação de serviços, processos de engenharia web e alta fidelidade visual."
+        }
+      }
     }
   },
   "Others": {

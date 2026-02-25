@@ -1,7 +1,17 @@
-import { emailIcon, githubIcon, linkedinIcon, whatsappIcon } from "@/assets";
+import {
+  emailIcon,
+  githubIcon,
+  linkedinIcon,
+  projectRachelStoneImg,
+  projectSkillbridgeImg,
+  projectSquareUpImg,
+  projectTailwindStoreImg,
+  whatsappIcon,
+} from "@/assets";
 import {
   LocalesArrayType,
   NavigationLink,
+  ProjectType,
   ServiceStat,
   SocialMediaLink,
   Stacks,
@@ -57,9 +67,6 @@ export const ServicesStats: ServiceStat[] = [
   },
 ];
 
-// Projetos Concluídos - Services.tsx
-export const CompleteProjets: string = "4+";
-
 // Stack e Conhecimentos Principais - About.tsx
 export const MainStacks: Stacks = [
   "Next.js",
@@ -80,23 +87,35 @@ export const SecondaryStacks: Stacks = [
 ];
 
 // Projetos - Portfolio.tsx
-export const projects = [
+export const projects: ProjectType[] = [
   {
-    title: "Project 1",
-    description: "Description 1",
-    link: "https://github.com/gustavoppdev",
+    title: "projects.rachel-stone.title",
+    description: "projects.rachel-stone.description",
+    link: "https://rachelstone-landing-page.vercel.app/",
+    imageSrc: projectRachelStoneImg,
   },
   {
-    title: "Project 2",
-    description: "Description 2",
-    link: "https://github.com/gustavoppdev",
+    title: "projects.tailwind-store.title",
+    description: "projects.tailwind-store.description",
+    link: "https://e-commerce-tailwind-rosy.vercel.app/",
+    imageSrc: projectTailwindStoreImg,
   },
   {
-    title: "Project 3",
-    description: "Description 3",
-    link: "https://github.com/gustavoppdev",
+    title: "projects.skillbridge.title",
+    description: "projects.skillbridge.description",
+    link: "https://skillbrigde.vercel.app/",
+    imageSrc: projectSkillbridgeImg,
+  },
+  {
+    title: "projects.square-up.title",
+    description: "projects.square-up.description",
+    link: "https://squareup-ten.vercel.app/",
+    imageSrc: projectSquareUpImg,
   },
 ];
+
+// Projetos Concluídos - Services.tsx
+export const CompleteProjets: string = projects.length + "+";
 
 // Social Medias - Footer.tsx / Contato
 export const SocialMediaLinks: SocialMediaLink[] = [
