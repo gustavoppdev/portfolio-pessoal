@@ -91,6 +91,12 @@
       "changeLanguage": "Alterar idioma",
       "portuguese": "Português",
       "english": "Inglês"
+    },
+    "NotFoundPage": {
+      "code": "404",
+      "title": "Página não encontrada",
+      "description": "Desculpe, não conseguimos encontrar a página que você está procurando.",
+      "goBackHomeBtn": "Volte para o inicio"
     }
   }
 }
