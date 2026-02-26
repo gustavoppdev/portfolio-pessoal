@@ -37,10 +37,10 @@ export const LocalesArray: LocalesArrayType[] = [
 
 // Links de Navegação - NavigationBar - Mobile
 export const NavigationLinks: NavigationLink[] = [
-  { href: "/#services", labelKey: "links.services" },
-  { href: "/#about", labelKey: "links.about" },
-  { href: "/#portfolio", labelKey: "links.portfolio" },
-  { href: "/#contact", labelKey: "links.contact" },
+  { href: "#services", labelKey: "links.services" },
+  { href: "#about", labelKey: "links.about" },
+  { href: "#portfolio", labelKey: "links.portfolio" },
+  { href: "#contact", labelKey: "links.contact" },
 ];
 
 // Serviços - Services.tsx
