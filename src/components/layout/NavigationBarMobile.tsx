@@ -28,16 +28,13 @@ const NavigationBarMobile = () => {
   const [open, setOpen] = useState(false);
   const t = useTranslations("Layout.NavigationBar");
 
-  const handleClick = () => {
-    setOpen(!open);
-  };
   return (
     <div className="flex lg:hidden">
-      <Sheet open={open} onOpenChange={handleClick}>
+      <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger asChild>
           <Button
             variant={"ghost"}
-            onClick={handleClick}
+            onClick={() => setOpen(open)}
             className="max-sm:pr-0!"
             aria-label="Menu Mobile"
           >
@@ -49,7 +46,10 @@ const NavigationBarMobile = () => {
           <SheetDescription className="sr-only"></SheetDescription>
         </SheetHeader>
 
-        <SheetContent className="pt-15">
+        <SheetContent
+          onCloseAutoFocus={(e) => e.preventDefault()}
+          className="pt-15"
+        >
           <ul className="flex flex-col gap-4 border-b pb-4">
             {NavigationLinks.map((link) => (
               <li key={link.labelKey}>
@@ -58,7 +58,7 @@ const NavigationBarMobile = () => {
                   className="w-full justify-start"
                   asChild
                 >
-                  <Link href={link.href} onClick={handleClick}>
+                  <Link href={link.href} onClick={() => setOpen(false)}>
                     {t(link.labelKey)}
                   </Link>
                 </Button>
