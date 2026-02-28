@@ -16,6 +16,7 @@ import NavigationBar from "@/components/layout/NavigationBar";
 import Footer from "@/components/layout/Footer";
 import { ScrollToTop } from "@/components/common/ScrollToTop";
 import { getTranslations } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -93,6 +94,7 @@ export default async function RootLayout({ children, params }: Props) {
           <NextIntlClientProvider>
             <NavigationBar />
             {children}
+            <Analytics />
             <Footer />
             <ScrollToTop />
           </NextIntlClientProvider>
