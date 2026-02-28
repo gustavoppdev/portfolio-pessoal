@@ -130,7 +130,7 @@ export const SocialMediaLinks: SocialMediaLink[] = [
     iconSrc: emailIcon,
   },
   {
-    href: "https://www.linkedin.com/in/seu-perfil",
+    href: "https://www.linkedin.com/in/gustavo-henrique-817a433b3/",
     alt: "Linkedin",
     iconSrc: linkedinIcon,
   },
